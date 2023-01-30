@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastfair"
+version = "0.1.0"
+description = "Fast fair regression"
+authors = ["Dan Steinberg <info@gradientinstitute.org>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = "^1.24.1"
+scipy = "^1.10.0"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
+jupyter = "^1.0.0"
+scikit-learn = "^1.2.1"
+jax = "^0.4.2"
+jaxlib = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

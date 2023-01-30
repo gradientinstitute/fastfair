@@ -1,0 +1,15 @@
+.ipynb_checkpoints
+fastfair.egg-info
+__pycache__
+paper/fastfair_edsc.bbl
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xdv
+*.pdf
+al_*
+icml2020/*.png
