@@ -17,7 +17,7 @@ as it depends on code we do not own, and do not have permission to redistribute.
 We use [python poetry](https://python-poetry.org/) for convenience, once
 you have installed this package for your system, issue the following commands,
 
-    git clone XXX
+    git clone git@github.com:gradientinstitute/fastfair.git
     poetry install
     mkdir data
     curl https://archive.ics.uci.edu/ml/machine-learning-databases/communities/communities.data --output data/communities.data
