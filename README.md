@@ -14,8 +14,11 @@ as it depends on code we do not own, and do not have permission to redistribute.
 
 ## Installation
 
-We use [python poetry](https://python-poetry.org/) for convenience, once
-you have installed this package for your system, issue the following commands,
+We use [python poetry](https://python-poetry.org/) for convenience. We
+recommend using it as you will more likely be able to get this code to work.
+However, we also provide a `requirements.txt` file if you would like to use
+another package manager or environment. To install this project using poetry,
+first install it for your system, then issue the following commands,
 
     git clone git@github.com:gradientinstitute/fastfair.git
     poetry install
@@ -24,7 +27,10 @@ you have installed this package for your system, issue the following commands,
     curl https://archive.ics.uci.edu/ml/machine-learning-databases/communities/communities.names --output data/communities.names
     poetry shell
 
-You should now be ready to use the models and measures.
+You should now be ready to use the models and measures. If you use the
+`requirements.txt` file, replace the `poetry install` and `poetry shell`
+commands with those appropriate for your choice of tools.
+
 
 ## Running the code
 
