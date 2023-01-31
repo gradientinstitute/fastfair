@@ -1,6 +1,6 @@
 # Fast Fair Regression
 
-This package provides the regression models and measures found in the papers,
+This package provides code for the regression models and measures found in the papers,
 
 [Steinberg, D., Reid, A., O'Callaghan, S., Lattimore, F., McCalman, L., & Caetano, T. (2020). Fast fair regression via efficient approximations of mutual information. arXiv preprint arXiv:2002.06200.](https://arxiv.org/pdf/2002.06200.pdf)
 
