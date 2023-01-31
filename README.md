@@ -37,7 +37,8 @@ commands with those appropriate for your choice of tools.
 We demonstrate the models and measures in two Jupyter notebooks.
 - `notebooks/measures.ipynb` demonstrates the use of probabilistic 
   classification for measuring fairness in a regression setting. It also 
-  reproduces some plots from the "Fairness measures for regression via probabilistic classification" paper. 
+  reproduces some plots from the "Fairness measures for regression via 
+  probabilistic classification" paper. 
 - `notebooks/regression.ipynb` demonstrates the use of the fast fair regression
   models on the "Communities and crime" dataset (which is downloaded in the 
   installation instructions). Each of the fairness models are run with different
@@ -55,5 +56,8 @@ Or substitute `regression.ipynb` with `measures.ipynb` on the last line.
 
 We provide this code under the Apache 2.0 license. See the `LICENSE` file for 
 more information.
+
+This code is prototype/research quality only, and has not been developed to
+the point where it can be used reliably in production.  
 
 Copyright 2023 Gradient Institute
